@@ -65,9 +65,9 @@ public class WebElementCommands extends Base {
 		WebElement getButton1=driver.findElement(By.xpath("//div[@id='message-two']"));
 		WebElement containsEx2=driver.findElement(By.xpath("//div[contains(@id,'message-t')]"));
 		WebElement startswithEx2=driver.findElement(By.xpath("//div[starts-with(@id,'message-t')]"));
-    	WebElement textSample2=driver.findElement(By.xpath("//div[contains(text(),'Total A + B :')]"));
+    		WebElement textSample2=driver.findElement(By.xpath("//div[contains(text(),'Total A + B :')]"));
 		
-    	WebElement parentTechnic=driver.findElement(By.xpath("//button[@id='button-one']//parent::form"));
+    		WebElement parentTechnic=driver.findElement(By.xpath("//button[@id='button-one']//parent::form"));
 		WebElement childTechnic=driver.findElement(By.xpath("//div[@id='collapsibleNavbar']//child::ul"));
 		WebElement following=driver.findElement(By.xpath("//button[@id='button-one']//following::div[@id='message-one']"));
 		WebElement preceding=driver.findElement(By.xpath("//button[@id='button-one']//preceding::div[@class='header-top']"));
