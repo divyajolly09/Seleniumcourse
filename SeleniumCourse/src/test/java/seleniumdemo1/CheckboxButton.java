@@ -17,6 +17,7 @@ public class CheckboxButton extends Base {
 		CheckboxButton checkboxbutton = new CheckboxButton();
 		checkboxbutton.initializeBrowser();
 		checkboxbutton.verifySingleCheckBoxDemo();
+		checkboxbutton.browserQuit();
 		// TODO Auto-generated method stub
 
 	}
